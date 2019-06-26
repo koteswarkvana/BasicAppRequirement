@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".activity.EditTextBackgroundActivity">
 
-    <EditText
+    <com.example.basicapprequire.customfontforviews.HelveticaEditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
@@ -16,4 +17,12 @@
         android:hint="Enter your name"
         android:background="@drawable/edittext_rounded_corners_color"
         />
+
+    <com.example.basicapprequire.customfontforviews.HelveticaTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hello World"
+        android:textSize="22dp"
+        android:gravity="center"/>
 </LinearLayout>
