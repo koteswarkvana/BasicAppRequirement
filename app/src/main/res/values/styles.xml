@@ -1,11 +1,19 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <!--<style name="AppTheme" android:theme="@android:style/Theme.Black.NoTitleBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>   <!-- //this -->
+
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!--<style name="BaseAppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>   &lt;!&ndash; //this &ndash;&gt;
+        &lt;!&ndash;<item name="colorPrimaryDark">@color/white</item>&ndash;&gt;
+        <item name="android:windowLightStatusBar">true</item>
+    </style>-->
 
 </resources>

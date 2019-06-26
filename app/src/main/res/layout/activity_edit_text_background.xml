@@ -10,19 +10,21 @@
     <com.example.basicapprequire.customfontforviews.HelveticaEditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
-        android:gravity="center"
-        android:hint="Enter your name"
         android:background="@drawable/edittext_rounded_corners_color"
-        />
+        android:gravity="center"
+        android:hint="Enter your name" />
 
+    <!--Added different types of folder names and placed dimens.xml file in all folders-->
+    <!--NOTE: These folder paste on res folder-->
+    <!--custom text view for different screen sizes-->
     <com.example.basicapprequire.customfontforviews.HelveticaTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:gravity="center"
         android:text="Hello World"
-        android:textSize="22dp"
-        android:gravity="center"/>
+        android:textSize="@dimen/default_button_text_size" />
 </LinearLayout>

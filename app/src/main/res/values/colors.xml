@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#47768F</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="appTextColor">#FFFFFF</color>
+    <color name="appBackgroundColor">#277992</color>
+    <color name="welcome">#000000</color>
+    <color name="welcome_message_text">#A9A9A9</color>
     <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="edittext_hint_color">#A2A2A2</color>
+    <color name="edittext_rectangle_color">#D9D9D9</color>
 </resources>
